@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Shop';
+  title: string = 'Demo 12312321123321';
+  ab: number = 1;
+  isAdmin: boolean = true;
 }
